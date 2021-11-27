@@ -1,0 +1,80 @@
+* {
+	margin: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	background: #f0f2f5;
+	font-family: 'Roboto', sans-serif;
+}
+
+#fblogo {
+	margin-top: 100px;
+}
+
+#aciklama {
+	font-size: 30px;
+}
+
+.kutu {
+	width: 350px;
+	height: 350px;
+	border-radius: 10px;
+	background: #fff;
+    box-shadow: 0px 0px/*alta bişeyler yapıyor*/ 4px/*aradığmız buydu gomutanım :d*/ 0px #888;
+
+    margin-top: 100px;
+    margin-left: 700px;
+
+    position: absolute;
+
+      left: 30px;
+      top: 20px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: #e5e3e3 1px solid;
+  border-radius: 4.5px;
+}
+
+.girisyap {
+	width: 300px;
+	height: 50px;
+	background: #1877f2;
+	text-align: center;
+	border-radius: 5px;
+	line-height: 50px;
+}
+
+#girisyazi {
+	color: #fff;
+	display: flex;
+}
+
+#unuttum {
+	color: #1877f2;
+	text-align: center;
+}
+
+.yenihesap {
+	width: 200px;
+	height: 45px;
+	background: #42b72a;
+	border-radius: 5px;
+	margin-left: 70px;
+}
+
+#hesapolustur{
+	color: #fff;
+	line-height: 50px;
+	font-weight: bold;
+}
+
+#sayfa{
+	margin-right: 200px;
+}
